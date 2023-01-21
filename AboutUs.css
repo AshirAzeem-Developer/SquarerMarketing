@@ -1,0 +1,71 @@
+.AUsec2 {
+    background-image: url('pictures/mainPicBackground.png');
+
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-position-x: center;
+}
+
+.AUsubsec2 {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: auto;
+}
+
+.AUsubsec2 b {
+    padding: 8px;
+    background-color: #fae100;
+    border-radius: 12px;
+    color: #051836;
+}
+
+.AUsec2Container {
+
+    width: 100%;
+    height: 50vh;
+
+}
+
+/*================================================ SECTION 2=========================================== */
+
+
+
+.AUDescription {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    /* line-height: 200%; */
+    color: #051836 !important;
+
+    font-size: 19px;
+
+}
+
+.AUTitle {
+    background-color: #051836;
+    border: 4px solid #fae100;
+    border-top-left-radius: 55px;
+    border-bottom-right-radius: 55px;
+}
+
+/*================================================ SECTION 4 =========================================== */
+
+
+.AUFlexContainerSec4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.AUFlexContainerReversedSec4 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}

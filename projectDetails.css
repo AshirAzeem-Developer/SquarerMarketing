@@ -1,0 +1,59 @@
+body {
+    padding: 0% !important;
+    margin: 0% !important;
+
+}
+
+h5 {
+
+    font-size: 2rem !important;
+}
+
+
+.IamgeSetting {
+    width: 100% !important;
+    height: 60vh !important;
+    background-position: center;
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+.ProjectBanner {
+    background-image: url('pictures/LatestProjects/zahida_residencia_mall_39362.jfif');
+    width: 100% !important;
+    height: 60vh !important;
+    background-position: center;
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+.ProjectBannerDull {
+    /* background-color: rgba(5, 24, 54, 0.6); */
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100% !important;
+    height: 60vh !important;
+
+
+}
+
+.ProjectBannerDull button:hover {
+    background-color: #fae100 !important;
+}
+
+
+/* ==============================SECTION 5 Starts====================== --> */
+
+
+.ProjctLocation a {
+    text-decoration: none;
+    color: white !important;
+}
+
+.ProjctLocation a:hover {
+    text-decoration: underline;
+    color: #fae100 !important;
+}
+
+/* <!-- ==============================SECTION 5 ENDS====================== --> */

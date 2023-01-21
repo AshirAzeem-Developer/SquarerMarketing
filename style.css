@@ -1,0 +1,456 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+/* 
+                                                                                                                                MY COLOR SWATCHES
+                                                                                                                                Light Grey #53565a
+                                                                                                                                dark Grey #1f2326
+                                                                                                                                card Bg #f6f6f6
+
+                                                                                                                                NavyBlue #051836
+
+                                                                                                                                Yellow #fae100
+                                                                                                                                */
+body {
+    background-color: white;
+
+}
+
+.StyledText {
+    font-family: 'Oswald', sans-serif;
+}
+
+.colorYellow {
+    color: #fae100 !important;
+}
+
+.colorYellowBg {
+    background-color: #fae100 !important;
+}
+
+.colorBlue {
+    background-color: #051836 !important;
+}
+
+.colorBlueText {
+    color: #051836 !important;
+}
+
+/* ====================================Animations======================================== */
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    to {
+        transform: scale(1);
+    }
+
+}
+
+.pulse {
+    animation-timing-function: linear;
+    transform-origin: bottom center;
+    animation-name: pulse;
+    animation-duration: .75s;
+    animation-iteration-count: 3;
+}
+
+@keyframes flyIn {
+
+    0% {
+        transform: translate3d(2000px, -2000px, 0px);
+        display: none;
+    }
+
+    10%,
+    15% {
+        transform: translate3d(-0px, -0px, 0px) scale(.07);
+    }
+
+    20% {
+        transform: translate3d(0, 1000px, 0px);
+    }
+
+    30% {
+        transform: translate3d(-2000px, 2000px, 0px) rotateX(60deg) scale(5);
+    }
+
+    40% {
+        transform: translate3d(2000px, -2000px, 0px) rotateX(0deg) scale(2);
+    }
+
+    60% {
+        transform: translate3d(-600px, -200px, 0px) rotateX(0deg) scale(.3);
+    }
+
+    80% {
+        transform: translate3d(0, 0, 0) scale(.01);
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.flyIn {
+    animation-timing-function: ease-out;
+    transform-origin: bottom center;
+    animation-name: flyIn;
+    animation-duration: 5s;
+}
+
+
+
+.transUp {
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+}
+
+.transUp:hover {
+    transform: translatey(-20px);
+    -webkit-transform: translatey(-20px);
+    -moz-transform: translatey(-20px);
+}
+
+/* ------------------------------SECTION 1 ----------------------------------- */
+
+
+.Header a {
+
+    font-size: 16px;
+
+}
+
+.Header a:hover {
+    color: #fae100;
+    background-color: #051836 !important;
+    position: sticky !important;
+    text-decoration: underline;
+
+}
+
+.Header {
+
+    background-color: #051836 !important;
+
+}
+
+/* ------------------------------SECTION 2 ----------------------------------- */
+
+
+.sec2 {
+    background-image: url('pictures/mainPicBackground.png');
+
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-position-x: center;
+}
+
+.subsec2 {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 80vh;
+}
+
+.subsec2 b {
+    padding: 8px;
+    background-color: #ffc107;
+    border-radius: 12px;
+    color: #051836;
+}
+
+.sec2Container {
+
+    width: 100%;
+    height: 50vh;
+
+}
+
+#SquareMarketingTxt {
+    border-left: 5px;
+
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+
+    border-color: #ffc107;
+    border-style: solid;
+    /* font-family: 'Alexandria', sans-serif; */
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Zen Dots', cursive;
+
+}
+
+.sec2Text {
+    font-size: 1rem;
+}
+
+.form {
+
+    /* background-color: #ffc107 !important; */
+    color: black;
+}
+
+.form label:hover {
+    color: #ffc107 !important;
+    text-decoration: underline !important;
+}
+
+
+
+/* ------------------------------SECTION 3 ----------------------------------- */
+.flex-Conatiner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.flex-item {
+    margin: 5px !important;
+    text-align: justify;
+    font-size: 15px;
+    padding: 8px;
+    width: 300px;
+    border-radius: 25px;
+
+}
+
+.flex-item img {
+    width: 100%;
+    height: auto;
+
+}
+
+.flex-item h5 {
+    color: white !important;
+    font-size: 30px;
+
+}
+
+.flex-item p {
+
+    font-size: black
+}
+
+.list-group-item {
+    background-color: #1f2326 !important;
+    color: white !important;
+    font-weight: bold;
+}
+
+.flexItemPara1 {
+    font-weight: bold;
+    color: #ffc107 !important;
+}
+
+.carousel-item {
+    width: 100% !important;
+    height: auto;
+}
+
+.sec3part2 a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* ------------------------------SECTION 4 ----------------------------------- */
+
+.image {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.image__img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.image__overlay--blur {
+    backdrop-filter: blur(5px);
+}
+
+.image__overlay--primary {
+    background: #051836;
+
+}
+
+.image__overlay>* {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+    opacity: 0.9;
+}
+
+.image__overlay:hover>* {
+    transform: translateY(0);
+}
+
+.image__title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.image__description {
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
+
+.sec4 a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* ------------------------------SECTION 5 ----------------------------------- */
+
+
+.subsec5 a {
+    text-decoration: none;
+    color: #fae100;
+}
+
+.subsec5Col1 {
+
+
+    background-color: #051836;
+    padding: 25px;
+    color: #ffffff;
+
+
+}
+
+.subsec5 {
+
+    background-image: url('pictures/sec5Img.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+
+.sec5Image {
+    background-color: #051836;
+    opacity: 0.9;
+    width: 100%;
+    height: 60vh;
+
+}
+
+/* ------------------------------SECTION 6 ----------------------------------- */
+.feature1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    /* background-color: rgba(5, 24, 54) !important; */
+    color: white;
+
+    /* border-radius: 25px; */
+    background-image: url('pictures/builder-5.jpg.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.feature1 .featureTitle {
+    color: #fae100;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+.dullFatureBack {
+    background-color: rgba(5, 24, 54, 0.9) !important;
+    width: 100%;
+    height: 100vh;
+
+
+}
+
+/* ------------------------------SECTION 7 Contact Us----------------------------------- */
+
+
+.sec7 {
+    background-color: #051836;
+
+}
+
+.titlesOfSec7 {
+
+    color: #fae100 !important;
+}
+
+.numbers {
+    color: #fae100 !important;
+    font-size: 20px;
+
+}
+
+.numbers a {
+    color: white !important;
+    font-size: 20px;
+}
+
+.numbers a:hover {
+    color: #fae100 !important;
+    font-size: 20px;
+}
+
+.sec7 a {
+    color: white !important;
+}
+
+.sec7 a:hover {
+    color: #fae100 !important;
+}
+
+/* ------------------------------SECTION 7 Contact Us----------------------------------- */
+
+.sendBtnIcon {
+    color: #fae100;
+}
+
+.sec8 a {
+    color: #fae100;
+}
+
+.sec8 a:hover {
+    color: white;
+}

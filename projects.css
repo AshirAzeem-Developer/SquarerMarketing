@@ -1,0 +1,36 @@
+.Projfeature1 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    /* background-color: #051836 !important; */
+    /* color: white; */
+    /* padding: 45px; */
+    /* border-radius: 5px; */
+}
+
+.Projfeature1 .featureTitle {
+    color: #fae100 !important;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Sec 3 */
+
+.ProjectSubSec3 img {
+    border-radius: 35px !important;
+    /* border-top-left-radius: 30px;
+    border-top-right-radius: 30px; */
+}
+
+/* .ProjectSubSec3 .facilities {
+    border-top: 2px solid #fae100;
+    border-bottom: 0px;
+    border-style: dashed;
+} */
+
+.ProjectSubSec3 .project1 {
+    border-radius: 25px !important;
+}
