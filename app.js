@@ -1,27 +1,30 @@
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
-import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js";
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
 import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js";
+
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyCFFTcLgxHhqFq8l9n9D00ctw7Vq37z7J0",
-    authDomain: "squaremarketing-ef46e.firebaseapp.com",
-    databaseURL: "https://squaremarketing-ef46e-default-rtdb.firebaseio.com",
-    projectId: "squaremarketing-ef46e",
-    storageBucket: "squaremarketing-ef46e.appspot.com",
-    messagingSenderId: "946112687653",
-    appId: "1:946112687653:web:abc66bb17e80c0c3f999cc",
-    measurementId: "G-1HEB43KT4E"
+    apiKey: "AIzaSyDXksCQuPWQNQ2nHWIyjHVJbOG9e9_gvYw",
+    authDomain: "squaremarketing-555d6.firebaseapp.com",
+    projectId: "squaremarketing-555d6",
+    storageBucket: "squaremarketing-555d6.appspot.com",
+    messagingSenderId: "1050365026421",
+    appId: "1:1050365026421:web:ff60a018db9a24c53bd83c",
+    measurementId: "G-5G90DZSMEY"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 const database = getDatabase();
+
+
+
 
 
 
